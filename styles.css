@@ -5,7 +5,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: "Lexend", sans-serif;
+    font-style: oblique;
     color: #f4f4f4;
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -15,7 +16,7 @@ h6 {
 p {
     font-family: 'Patrick Hand', cursive;
     color: #f4f4f4;
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 1.6;
     margin-bottom: 1em;
 }
@@ -41,12 +42,15 @@ p {
     text-decoration: none;
     color: #f4f4f4;
     font-family: 'Patrick Hand', cursive;
+    padding: 10 px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Page Background */
 body {
-    background-color: #2d2d2d;
-    color: #f4f4f4;
+    background-color: #7a7a7a;
+    color: #ffffff;
     font-family: 'Patrick Hand', cursive;
     margin: 0;
     padding: 0;
@@ -111,6 +115,7 @@ main {
 .card h3 {
     color: #e21;
     font-family: 'Permanent Marker', cursive;
+    font-size: 1em;
 }
 
 .card-number,
